@@ -241,7 +241,7 @@
             ],
             "properties": {
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups','puppetNetworkSecurityGroup')]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups','puppet_nsg')]"
                 },
                 "ipConfigurations": [
                     {
