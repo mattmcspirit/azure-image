@@ -204,8 +204,8 @@
             "virtualNetworkAddressPrefix": "[steps('settings').Network.virtualNetwork.addressPrefix]",
             "virtualNetworkName": "[steps('settings').Network.virtualNetwork.name]",
             "virtualNetworkNewOrExisting": "[steps('settings').Network.virtualNetwork.newOrExisting]",
-            "subnetName": "[steps('settings').Network.virtualNetwork.subnets.subnet1.name]",
-            "subnetPrefix": "[steps('settings').Network.virtualNetwork.subnets.subnet1.addressPrefix]",
+            "virtualNetworkSubnetName": "[steps('settings').Network.virtualNetwork.subnets.subnet1.name]",
+            "virtualNetworkSubnetAddressPrefix": "[steps('settings').Network.virtualNetwork.subnets.subnet1.addressPrefix]",
             "storageAccountName": "[steps('settings').Storage.storageAccount.name]",
             "storageAccountType": "[steps('settings').Storage.storageAccount.type]",
             "storageAccountNewOrExisting": "[steps('settings').Storage.storageAccount.newOrExisting]"
