@@ -109,7 +109,7 @@
         },
         "storageAccountName": {
             "type": "string",
-            "defaultValue": "concat('puppetstor_',substring(guid(),0,4))",
+            "defaultValue": "puppet_stor",
             "metadata": {
                 "description": "Storage Acccount Name"
             }
