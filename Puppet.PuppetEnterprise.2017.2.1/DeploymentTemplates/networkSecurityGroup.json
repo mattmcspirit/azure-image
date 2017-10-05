@@ -6,7 +6,7 @@
         {
             "apiVersion": "2015-06-15",
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "puppetNetworkSecurityGroup",
+            "name": "puppet_nsg",
             "location": "[resourceGroup().location]",
             "properties": {
                 "securityRules": [
@@ -139,7 +139,7 @@
     ],
     "outputs": {
         "networkSecurityGroupId": {
-            "value": "[resourceId('Microsoft.Network/networkSecurityGroups','puppetNetworkSecurityGroup')]",
+            "value": "[resourceId('Microsoft.Network/networkSecurityGroups','puppet_nsg')]",
             "type": "string"
         }
     }
