@@ -170,7 +170,7 @@
                                 "label": "Storage account",
                                 "toolTip": "Storage account for the Virtual Machine disks",
                                 "defaultValue": {
-                                    "name": "[concat('puppetstor_',substring(guid(),0,4))]",
+                                    "name": "[concat('puppetstor',substring(guid(),0,4))]",
                                     "type": "Standard_LRS"
                                 },
                                 "constraints": {
